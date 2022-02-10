@@ -1,0 +1,155 @@
+@font-face{
+	font-family: "pen";
+	src: url(PressStart2P-Regular.ttf);
+	font-style: normal;
+	font-weight: 400;
+}
+
+html{
+	height: 100%;
+}
+
+/* Задний фон */
+body{
+	position: absolute;
+	height: 100%;
+	box-sizing: border-box;
+	margin: 0;
+	overflow-x: hidden;
+
+	background: #000000;
+}
+
+
+/* Белая полоска */
+.menu{
+	position: fixed;
+	width: 900px;
+	height: 65px;
+	float: left;
+
+	margin-left: 25%;
+	margin-top: 5%;
+
+	background: #FFFFFF;
+	border-radius: 66px;
+}
+
+
+/* Python  */
+.pth{
+position: fixed;
+width: 55px;
+height: 55px;
+
+margin-left: 2%;
+margin-top: 5px;
+
+
+
+}
+
+/* 2_Java 1 */
+.jv{
+position: fixed;
+width: 54px;
+height: 67px;
+
+margin-left: 21%;
+
+
+background: url(img/2_Java.png);
+}
+
+
+/* 3_Gmod 1 */
+.gmd{
+position: fixed;
+width: 60px;
+height: 60px;
+
+margin-left: 41%;
+}
+
+
+/* 5opkaестшаурмуизkfc-discrod 1 */
+.pit{
+position: fixed;
+width: 248px;
+height: 204px;
+
+margin-top: 20%;
+margin-left: 25%;
+border-radius: 119px;
+
+
+}
+
+/* 5opka-смех 1 */
+.pit2{
+position: fixed;
+width: 267px;
+height: 179px;
+
+margin-top: 35%;
+margin-left: 60%;
+border-radius: 164px;
+}
+
+.sk{
+	height: 800px;
+	margin-top: 15%;
+	margin-left: -15%;
+}
+
+.sk2{
+	height: 800px;
+	margin-left: 250%;
+	margin-top: -150%;
+
+	transform: scaleX(-1);
+}
+
+/* Я не знаю, что писать сюда, поэтому смотрите на то, как пятёрка смеётся ;} */
+.txt{
+position: fixed;
+
+font-family: pen;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+
+margin-top: 23%;
+margin-left: 40%;
+color: #FFFFFF;
+}
+
+.txt2{
+position: fixed;
+
+font-family: pen;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+
+margin-top: 38%;
+margin-left: 28%;
+color: #FFFFFF;
+}
+
+
+.hover-image-scale {
+  display: inline-block; 
+  overflow: hidden; /* Скрываем всё за контуром */
+}
+.hover-image-scale img {
+  transition: 1s; /* Время эффекта */
+  display: block; 
+}
+.hover-image-scale img:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+}
+     
+
